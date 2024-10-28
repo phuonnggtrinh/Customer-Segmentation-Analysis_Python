@@ -69,9 +69,24 @@
   **F (Frequency):** This metric indicates customer loyalty. Customers who make frequent purchases are likely to become loyal customers, so focusing on increasing purchase frequency can lead to more stable revenue.
   
 ## IV. Visualize the Number of Segments with Dimensions
+### 1. Bar Chart
+
+<img width="586" alt="Screenshot 2024-10-28 at 16 36 45" src="https://github.com/user-attachments/assets/97c756de-eb9d-4dfe-8ec5-11e97a0095af">
+
+
+<img width="663" alt="Screenshot 2024-10-28 at 16 37 02" src="https://github.com/user-attachments/assets/172ff68a-82a4-4542-a7d0-b911d67a03b6">
+
+
+<img width="659" alt="Screenshot 2024-10-28 at 16 40 00" src="https://github.com/user-attachments/assets/9b0f5c4d-6992-4839-afa4-72eb937cddad">
+
+<img width="662" alt="Screenshot 2024-10-28 at 16 40 22" src="https://github.com/user-attachments/assets/38c50395-00e2-4326-b9ea-19ba56075a1c">
+
+
+### 2. Treemap
 <img width="946" alt="Screenshot 2024-10-20 at 14 45 31" src="https://github.com/user-attachments/assets/329ba60b-9aaa-48bd-a2e2-df77143f23e0">
 
-----------------------------------------------
+----
+
 <img width="945" alt="Screenshot 2024-10-20 at 14 45 57" src="https://github.com/user-attachments/assets/b6a1dbd9-3f4a-4101-9a2d-1ebff50d0417">
 
 ## V. Insights
