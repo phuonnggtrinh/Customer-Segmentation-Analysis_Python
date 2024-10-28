@@ -1,4 +1,4 @@
-# Customer-Segmentation-Analysis_Python
+# Marketing-Customer-Segmentation-Analysis_Python
 ## I.Introduction
 ### Why RFM?
 - RFM (Recency, Frequency, Monetary) analysis is a marketing model using customer segmentation based on their transaction history.
