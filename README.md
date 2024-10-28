@@ -10,14 +10,34 @@
 - Customer Segmentation: How can we effectively segment our customer base to identify loyal customers, potential customers, and those at risk of churn?
 - RFM Analysis: What insights can we derive from the RFM (Recency, Frequency, Monetary) model to tailor marketing campaigns for each customer segment?
 ## II. Explore Data
-### Prepare the data set suitable for the RFM model
+### 1. Prepare the data set suitable for the RFM model
 - Customer ID: Customer identification.
 - Transaction Date: Transaction date.
 - Transaction Amount: Transaction amount.
-### Exploratory Data Analysis (EDA)
+### 2. Exploratory Data Analysis (EDA)
 - Remove invalid or missing records.
 - Ensure that the date format is correct.
 - Aggregate the data by the customer to get the necessary information for RFM.
+#### Check missing values
+<img width="908" alt="Screenshot 2024-10-28 at 12 02 48" src="https://github.com/user-attachments/assets/53d37fb2-3e3a-4f5e-9321-870abd56e0bf">
+<img width="906" alt="Screenshot 2024-10-28 at 12 03 22" src="https://github.com/user-attachments/assets/7b7438f8-eb7d-4f2c-bb98-0a9844e3ea2c">
+
+--> 
+- Description có giá trị Null
+- Customer ID có null
+- Customer ID sai type
+- Unit Price < 0
+- Quantity < 0
+
+#### Clean Data
+-->
+- Xóa các order bị cancel
+- Xóa các Customer ID bị null
+- Đổi type cho cột Customer id
+  <img width="910" alt="Screenshot 2024-10-28 at 12 04 51" src="https://github.com/user-attachments/assets/e63b0950-d58b-4804-8af9-d07dac9366f3">
+
+<img width="904" alt="Screenshot 2024-10-28 at 12 06 13" src="https://github.com/user-attachments/assets/e7f8fcce-fe39-4c79-8cf8-fc3f3949618c">
+
 ## III. RFM Analysis
 ### Determine and Calculate R, F, M Scores for Each Customer
 - **R (Recency)**: The number of days since the last transaction to the reference date (December 31, 2011).
